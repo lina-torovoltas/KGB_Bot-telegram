@@ -1,50 +1,39 @@
-# KGB_Bot-telegram
-
-![Language](https://img.shields.io/badge/language%20-%20Python-blue)
-![OS](https://img.shields.io/badge/OS-linux-blue)
-![License](https://img.shields.io/github/license/lina-torovoltas/KGB_Bot-telegram)
-![GitHub last commit](https://img.shields.io/github/last-commit/lina-torovoltas/KGB_Bot-telegram)</br>
-
-The one and only KGB bot for telegram!</br>
-This is my attempt to transfer the legendary KGB_Bot-discord to Telegram.
+# 0xNULL_Bot-telegram
+![Language](https://img.shields.io/badge/language%20-%20Python-3776AB)
+![License](https://img.shields.io/github/license/lina-torovoltas/0xNULL_Bot-telegram)
+![GitHub last commit](https://img.shields.io/github/last-commit/lina-torovoltas/0xNULL_Bot-telegram)</br>
 
 
-## Installing
-Clone this repository and prepare your environment:
+Telegram bot repository (transfer of the KGB_Bot-discord functionality).
 
+## Installation
+
+1. Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/lina-torovoltas/KGB_Bot-telegram
-cd KGB_Bot-telegram
+git clone https://github.com/lina-torovoltas/0xNULL_Bot-telegram
+cd 0xNULL_Bot-telegram
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 chmod +x start-bot.sh
 ```
 
-And run:
-
+2. Run the bot by passing your Telegram API token:
 ```bash
-./start-bot.sh
+TOKEN="your_bot_token_here" ./start-bot.sh
 ```
+*Alternatively, you can run `export TOKEN="your_bot_token_here"` before starting the script.*
 
 
-## Dependencies
+## Usage
 
-- Linux operating system
-- Python 3.9+
-
-
-## Commands
-
-See all available commands in [COMMANDS.md](COMMANDS.md) and their usage.
+See the full list of available commands and their functionality in [commands.md](commands.md).
 
 
 ## Contributing
 
-Contributions are welcome!</br>
-Feel free to open pull requests to improve the bot.
+If you have a random feature idea,</br>
+Feel free to break the code and open a pull request!
 
-
-## Author
-
-Developed by <a href="https://github.com/lina-torovoltas" style="color:#ff4f00">Lina Torovoltas</a> — © 2025 All rights reserved.
+***
+Developed by <a href="https://github.com/lina-torovoltas" style="color:#ff4f00">Lina Torovoltas</a> — © 2025-2026 All rights reserved.
